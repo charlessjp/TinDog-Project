@@ -1,0 +1,187 @@
+/* TITLE - CSS */
+
+#title{
+background-color: #ff4c68;
+padding: 18px;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+.navbar{
+    padding-bottom: 10%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
+}
+.navbar-brand{
+
+    font-size: 236.25%;
+    font-weight: bold;  
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat-light';
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight:900;
+}
+
+
+
+.Iphone{
+    transform: rotate(15deg);
+    width: 25%;
+    position: absolute;
+    right: 23%
+}
+.text{
+    color: white;
+}
+
+
+
+.d-button{
+    margin: 5% 3% 5% 0;
+}
+/* FEATURES - CSS */
+
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+}
+
+.f-icon{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Montserrat' ;
+    font-weight: 700;
+}
+p{
+    color: grey;
+}
+
+.icon{
+    color:#ef8172;
+
+    margin-bottom: 3rem;
+}
+
+.icon:hover {
+   color: #ff4c68;
+}
+
+/* TESTIMONIALS - CSS */
+#testimonials{
+    text-align: center;
+    background-color:#ef8172;
+    color: white;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.doggo{
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+}
+
+.she{
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+}
+
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%; 
+}
+
+.logo{
+    width: 15%;
+    margin: 20px 20px 50px 50px;
+}
+
+ 
+/*PRICING - CSS */
+
+#pricing{
+    text-align: center;
+    padding: 150px;
+}
+
+.pcol {
+  padding: 3% 2%;
+}
+
+/* CTS - CSS  */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-weight: 900;
+}
+
+.find{
+    padding-top: 8%;
+    font-size: 2.5rem;
+}
+
+/* FOOTER - CSS */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social{
+    margin: 10px;
+}
+
+.base{
+    padding-bottom: 30px;
+}
+
+/* SPECIAL - CSS */
+@media  (max-width: 1000px){
+    .Iphone{
+        transform: rotate(0deg);
+        width: 60%;
+        position: static;
+        right: 23%
+    }
+    
+    #title{
+        text-align: center;
+    }
+}
+ 
